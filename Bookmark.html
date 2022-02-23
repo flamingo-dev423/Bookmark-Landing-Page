@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+   <!-- Bootstrap -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+
+<!-- Font Family    -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+<!-- vueFramework -->
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="./bookmark-landing-page-master/images/logo-bookmark.svg" alt="">
+      </div>
+        <ul class="nav-bar">
+          <li><a href="#"> Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a> </li>
+        </ul>
+        <button id="btn-nav">login</button>
+    </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h1>A Simple Bookmark <br> Manager</h1>
+      <p>A clean and simple interface to organize your favourite <br> websites. Open a new 
+        browser tab and see your sites load <br> instantly. Try it for free.</p>
+        <button class="filled-btn">Get it on Chrome</button>
+        <button class="Ghost-btn"> Get it on Firefox</button>
+    </div>
+    <div class="col-md-6">
+      <img src="./bookmark-landing-page-master/images/illustration-hero.svg" class="img" alt="">
+      <div class="empty"></div>
+    </div>
+  </div>
+  <section class="feature">
+    <h2>Features</h2>
+    <p class="para-feature">Our aim is to make it quick and easy for you to access your favourite websites. 
+      Your bookmarks sync between your devices so you can access them on the go.</p>
+  </section>
+<div class="row sect2">
+  <div class="col-md-4">
+    <h2 class="header">  Simple Bookmarking </h2>
+  </div>
+  <div class="col-md-4">
+    <h2>  Speedy Searching </h2>
+  </div>
+  <div class="col-md-4">
+    <h2>  Easy Sharing </h2>
+  </div>
+</div>
+<div class="row sect3">
+<div class="col-md-6 img2"> 
+  <img src="./bookmark-landing-page-master/images/illustration-features-tab-1.svg" class="img" alt="">
+  <div class="empty empty1"> </div>
+</div>
+<div class="col-md-6 text ">
+<h2>  Bookmark in one click</h2>
+<p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+  gives you complete control over how you manage your favourite sites.</p>
+  <button class="filled-btn btn1">More info</button>
+</div>
+</div>
+<section class="extension">
+  <h2>Download the extension</h2>
+  <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+    got a favourite you’d like us to prioritize.</p>
+    <div class="extensions">
+      <div class="extension-box box1">
+        <img src="./bookmark-landing-page-master/images/logo-chrome.svg" alt="no image">
+        <h3>Add to Chrome</h3>
+        <h4>Minimum version 62</h4>
+        <button>Add & Install Extension</button>
+      </div>
+      <div class="extension-box box2">
+        <img src="./bookmark-landing-page-master/images/logo-firefox.svg" alt="no image">
+        <h3>Add to Firefox</h3>
+        <h4>Minimum version 55</h4>
+        <button>Add & Install Extension</button>
+      </div>
+      <div class="extension-box box3">
+        <img src="./bookmark-landing-page-master/images/logo-opera.svg" alt="no image">
+        <h3>Add to Opera</h3>
+        <h4>Minimum version 46</h4>
+        <button>Add & Install Extension</button>
+      </div>
+    </div>
+</section>
+<section class="faq-page">
+  <h2>Frequently Asked Questions</h2>
+  <p>Here are some of our FAQs. If you have any other questions <br> you’d like 
+    answered please feel free to email us.</p>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is Bookmark?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis..</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            How can I request a new browser?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Is there a mobile app?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+            sollicitudin ex et ultricies bibendum.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            What about other Chromium browsers?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+            vitae neque eget nisl gravida pellentesque non ut velit.</div>
+        </div>
+      </div>
+      <button class="accordion-btn">More Info</button>
+    </div>
+</section>
+</div>
+
+<section class="email-section">
+    <h3>35,000+ already joined</h3>
+    <h4>Stay up-to-date with what <br> we’re doing</h4>
+    <input type="email" placeholder="Enter your email address" id="email" required>
+    <button class="contact">Contact Us</button>
+</section>
+<footer>
+  <div id="logos">
+    <img src="./bookmark-landing-page-master/images/logo-bookmark.svg" alt="">
+  </div>
+    <ul id="nav-bar-footer">
+      <li><a href="#"> Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a> </li>
+    </ul>
+    <ul class="nav-social-icon">
+      <img src="./bookmark-landing-page-master/images/icon-facebook.svg" alt="">
+      <img src="./bookmark-landing-page-master/images/icon-twitter.svg" alt="">
+    </ul>
+</footer>
+
+    <script src="Vue.js"></script>
+</body>
+</html>
